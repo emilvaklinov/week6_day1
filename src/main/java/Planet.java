@@ -1,7 +1,7 @@
 public class Planet {
 
-        private String name;
-        private int size;
+    private String name;
+    private int size;
 
     public Planet (String name, int size){
         this.name = name;
@@ -24,9 +24,9 @@ public class Planet {
         this.size = size;
     }
 
- public void explode(){
+    public void explode(){
         System.out.println("Boom, " +this.name+ " has exploded");
- }
+    }
 
 }
 
