@@ -25,7 +25,7 @@ public class Planet {
     }
 
     public void explode(){
-        System.out.println("Boom, " +this.name+ " has exploded");
+        System.out.println("Boom, " +this.name+ " has exploded in Star Wars");
     }
 
 }
