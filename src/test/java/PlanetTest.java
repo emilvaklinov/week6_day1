@@ -7,14 +7,14 @@ public class PlanetTest {
 
     @Test
     public void hasName() {
-        Planet planet = new Planet("Mars", 908973);
-        assertEquals("Mars", planet.getName());
+        Planet planet = new Planet("Venus", 737373);
+        assertEquals("Venus", planet.getName());
     }
 
     @Test
     public void hasSize() {
-        Planet planet = new Planet("Mars", 908973);
-        assertEquals(908973, planet.getSize());
+        Planet planet = new Planet("Venus", 737373);
+        assertEquals(737373, planet.getSize());
     }
 
 }
